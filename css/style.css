@@ -7,7 +7,7 @@ font-size: 1rem;
 .index-wrapper{
 display: grid;
 grid-template-columns: 8vw 84vw 8vw;
-grid-template-rows: 4em 26.5em 120em 10.5rem;
+grid-template-rows: 4em 26.5em 125em 10.5rem;
 }
 
 p{
@@ -232,15 +232,13 @@ grid-row: 3;
 grid-column-start: 1;
 grid-column-end: 4;
 display: grid;
-grid-template-rows: 5em 25em 5em 10em 5em 15em .5em 20em 5em 10em 30em;
+grid-template-rows: 5em 25em 5em 10em 5em 15em .5em 30em .5em 9em 5em 12.5em;
 grid-template-columns: 8vw 84vw 8vw;
 }
 
 .c-row-2{grid-row: 2;grid-column: 2;}
 
-    .text-1{
-    text-align: justify;
-    }
+    .text-1{text-align: justify;}
 
     .photo-1{
     width: 19.7em;
@@ -324,17 +322,41 @@ background-color: #f4f4f4;
     }
 
     .mou-text{grid-row: 8;grid-column: 2;text-align: justify;}
-   
+    .mou-text-2{
+    margin-top: 1em;
+    text-align: center;
+    font-family: 'Source Serif Pro', serif;
+    color: #0e3a59; ;
+    }
+
+   .text-mou-2{
+    font-weight: 600;
+    font-size: .9rem;
+    line-height: 2em;
+
+   }
     .h2-mou{
     font-family: 'Source Serif Pro', serif;
     font-weight: 400;
     letter-spacing: .04em;
     }
     .nl-tc{font-size: .8rem;margin-bottom: 1em; text-transform: uppercase; font-weight: 600;}
+/* Banner */
+.banner{
+grid-row: 10;
+grid-column-start: 1;
+grid-column-end: 4;
+object-fit: cover;
+}
+.img-ban{
+object-fit: cover;
+width: 100vw;
+height: 9em;
+}
 
 /* Nations */
 .nations{
-grid-row: 11;
+grid-row: 12;
 grid-column-start: 2;
 grid-column-end: 4;
 display: grid;
@@ -390,8 +412,6 @@ grid-template-columns: 21vw 21vw 21vw 21vw;
         }
         .n-erm{grid-row: 3;grid-column: 3;}
      
-      
-          
         .montana-cree{
         grid-row: 2;
         grid-column: 4;
@@ -400,8 +420,6 @@ grid-template-columns: 21vw 21vw 21vw 21vw;
         }
         .n-montana{grid-row: 3;grid-column: 4;}
 
-       
-          
         figcaption{
         font-family: 'Source Serif Pro', serif;
         line-height: 1.8em;
