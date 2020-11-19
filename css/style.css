@@ -7,7 +7,7 @@ font-size: 1rem;
 .index-wrapper{
 display: grid;
 grid-template-columns: 8vw 84vw 8vw;
-grid-template-rows: 4em 26.5em 125em 10.5rem;
+grid-template-rows: 4em 26.5em 133em 10.5rem;
 }
 
 p{
@@ -279,6 +279,7 @@ background-color: #f4f4f4;
       font-size: .7rem;
       line-height: .9rem;
       text-align: left;
+      color: #0e3a59;
       }
   
       .news-text{font-size:.5rem;line-height:.8rem;text-align:justify;}
@@ -318,7 +319,7 @@ background-color: #f4f4f4;
     font-size: 1.2rem;
     margin: .5rem;
     padding: .5rem;
-    color: #0e3a59 ;
+    color: #0e3a59;
     }
 
     .mou-text{grid-row: 8;grid-column: 2;text-align: justify;}
@@ -341,6 +342,7 @@ background-color: #f4f4f4;
     letter-spacing: .04em;
     }
     .nl-tc{font-size: .8rem;margin-bottom: 1em; text-transform: uppercase; font-weight: 600;}
+
 /* Banner */
 .banner{
 grid-row: 10;
@@ -348,11 +350,40 @@ grid-column-start: 1;
 grid-column-end: 4;
 object-fit: cover;
 }
-.img-ban{
-object-fit: cover;
-width: 100vw;
-height: 9em;
-}
+    .shape{
+    border-top: 144px solid rgba(15, 58, 89, 0.7);
+    border-left: 0px solid transparent;
+    border-right: 140px solid transparent;
+    height: 0;
+    width: 175px;
+    z-index: 5;
+    position: absolute;
+    }
+
+    .banner-content{
+    z-index: 6;
+    position: absolute;
+    color: #ffffff;
+    }
+
+    .text-banner{
+    width: 225px;
+    padding-left: 1.3em;
+    line-height: 2em;
+    font-weight: lighter;
+    font-size: .7rem;
+    font-family: 'Source Serif Pro', serif;
+    }
+
+    .banner-link{padding-left: 1.3em; padding-top: 0; margin-top: 0;}
+    .about-link{color: #ffffff;}
+
+    .img-ban{
+    object-fit: cover;
+    width: 100vw;
+    height: 9em;
+    z-index: 4;
+    }
 
 /* Nations */
 .nations{
@@ -361,7 +392,7 @@ grid-column-start: 2;
 grid-column-end: 4;
 display: grid;
 object-fit: contain;
-grid-template-rows: 3.5em 5.4em 3.5em;
+grid-template-rows: 2.5em 6.5em 5.4em 3.5em;
 grid-template-columns: 21vw 21vw 21vw 21vw;
 }
     
@@ -376,6 +407,12 @@ grid-template-columns: 21vw 21vw 21vw 21vw;
     text-transform: uppercase;
     color: #0e3a59;
     }
+
+    .nations-text{
+        grid-row: 2;
+        grid-column-start: 1;
+        grid-column-end:5;
+    }
     
     .member-nations{
     width: 3.5em;
@@ -386,39 +423,39 @@ grid-template-columns: 21vw 21vw 21vw 21vw;
     }
 
         .louis-bull{
-        grid-row: 2;
+        grid-row: 3;
         grid-column: 1;
         padding-top: 1rem;
         object-fit: contain;
         }
-        .n-louis{grid-row: 3;grid-column: 1;}
+        .n-louis{grid-row: 4;grid-column: 1;}
 
         .nekaneet{
-        grid-row: 2;
+        grid-row: 3;
         grid-column: 2;
         width: 100%;
         height: auto;
         padding-top: 1.9rem;
         object-fit: contain;
         }
-        .n-neka{grid-row: 3;grid-column: 2;}
+        .n-neka{grid-row: 4;grid-column: 2;}
         
         
         .ermineskin{
-        grid-row: 2;
+        grid-row: 3;
         grid-column: 3;
         padding-top: 1rem;
         object-fit: contain;
         }
-        .n-erm{grid-row: 3;grid-column: 3;}
+        .n-erm{grid-row: 4;grid-column: 3;}
      
         .montana-cree{
-        grid-row: 2;
+        grid-row: 3;
         grid-column: 4;
         padding-top: 3rem;
         object-fit: contain;
         }
-        .n-montana{grid-row: 3;grid-column: 4;}
+        .n-montana{grid-row: 4;grid-column: 4;}
 
         figcaption{
         font-family: 'Source Serif Pro', serif;
@@ -428,3 +465,72 @@ grid-template-columns: 21vw 21vw 21vw 21vw;
         color: #0e3a59;
         text-align: center;
         }
+
+/*------
+Footer
+-------*/
+
+footer{
+grid-row: 4;
+grid-column-start: 1;
+grid-column-end: 4;
+display: grid;
+grid-template-columns: 20vw 20vw 20vw 20vw 20vw;
+grid-template-rows: 3.5rem 2.5rem 5rem;
+height: auto;
+background-color: #f4f4f4;
+}
+
+    .social-icon{
+    width: 1.7rem;
+    height: auto;
+    display: block;      
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0rem;
+    object-fit: contain;
+    }
+   
+    a:hover .social-icon {
+    transform: scale(1.3);
+    transition: 0.4s ease;
+    }
+  
+    .twitter{ grid-column: 2;grid-row: 2;}
+    .linkedin{grid-column: 3;grid-row: 2;}
+    .facebook{grid-column: 4;grid-row: 2;}
+    
+    /* .f-line{
+    grid-row: 1;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    border: .1px solid #0f3a59;
+    width: 60vw;
+    } */
+  
+    .social-text{
+    grid-row: 1;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: .13rem;
+    text-align: center;
+    padding-top: .5rem;
+    color: #0f3a59;
+    font-weight: 400;
+    }
+  
+    .footext{
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    text-align: center;
+    font-size: .6rem;
+    line-height: 1rem;
+    letter-spacing: .13rem;
+    color: #0f3a59;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    }
+
