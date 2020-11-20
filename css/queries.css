@@ -236,15 +236,84 @@ font-size: 1rem;
 /* Nations */
 .nations {
 grid-template-rows: 3em 6.5em 9.6em 4.3em;
-grid-template-columns: 21vw 21vw 21vw 21vw;
 }
 
 .nations-title {font-size: 1.2rem;}
 .nations-text{font-size: .89rem;line-height: 1.8rem;}
 .member-nations {width: 6.5em;}
 figcaption {font-size: .9rem;}
-
 }
 
 @media only screen 
-and (min-width : 1280px){}
+and (min-width : 1280px){
+.index-wrapper{
+grid-template-rows: 4em 39em 170em 10.5rem;
+}
+/* Main */
+.content{
+grid-template-rows: 10em 27em 10em 11em 10em 28em .2em 10em 8em 14em 6em 22.5em;
+}
+
+.photo-1 {width: 45em;height: 25em;margin-top: 2em;}
+.text-1 {line-height: 3.7rem;width: 22em;padding: 1em;}
+
+/* News */
+.news{
+grid-template-columns: 8% 13% 29% 13% 29% 8%;
+}
+.h2-title{padding-right: 1em;}
+.news-text {font-size: .8rem;line-height: 1.2rem;}
+
+/* Memorandum of understanding */
+.h2-mou {font-size: 2.4rem;}
+.nl-tc {font-size: 1.4rem;}
+.hide-mou {width: 34rem;}
+
+.hide-text {
+width: 27em;
+margin-left: 4.2em;
+font-size: 1rem;
+line-height: 2.4rem;
+}
+.text-mou-2 {font-size: 1.6rem;}
+
+/* Banner */
+.img-ban {height: 14em;}
+
+.shape {
+border-top: 223.5px solid rgba(15, 58, 89, 0.7);
+border-right: 210px solid transparent;
+width: 700px;
+}
+
+.text-banner {
+width: 600px;
+padding-left: 5em;
+line-height: 2.5em;
+font-size: 1.2rem;
+}
+
+.banner-link {
+font-size: 1rem;
+padding-left: 13em;
+margin-top: 1em;
+}
+
+/* Nations */
+.nations {
+grid-template-rows: 3.5em 8em 12em 4.3em;
+}
+.member-nations {width: 7.5em;}
+.nations-title {font-size: 1.4rem;}
+.nations-text {
+font-size: 1rem;
+line-height: 1.8rem;
+text-align: justify;
+}
+
+/* Footer */
+footer {grid-template-columns: 38vw 8vw 8vw 8vw 38vw;}
+.social-text {font-size: .8rem;}
+
+
+}
