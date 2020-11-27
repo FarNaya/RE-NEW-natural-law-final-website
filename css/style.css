@@ -312,7 +312,7 @@ background-color: #f4f4f4;
     grid-column: 2;
     text-align: center;
     font-family: 'Source Serif Pro', serif;
-    color: #0e3a59; ;
+    color: #0e3a59;
     }
 
    .text-mou-2{
@@ -464,7 +464,6 @@ grid-template-columns: 16.8vw 16.8vw 16.8vw 16.8vw 16.8vw;
 /*------
 Footer
 -------*/
-
 footer{
 grid-row: 4;
 grid-column-start: 1;
@@ -531,3 +530,195 @@ background-color: #f4f4f4;
     
     #link-term-privacy{color: #0e3a59;}
 
+/*----------------------------------------
+ABOUT
+-----------------------------------------*/
+.about-wrapper{
+display: grid;
+grid-template-columns: 8vw 84vw 8vw;
+grid-template-rows: 3.5rem 12.5rem 146rem 10.5rem;
+}
+
+/*-----
+HEADER
+-------*/
+.hamburger{color:lightgrey;}
+.cross{color:lightgrey;}
+
+/*------
+HERO
+-------*/
+.sect-hero{
+grid-row: 2;
+grid-column-start: 1;
+grid-column-end: 4;
+}
+
+.hero-over{position: absolute;z-index:2;}
+
+    .hero-overlay{
+    width: 100vw;
+    height: 12.5rem;
+    opacity: 0.3;
+    background: rgba(0, 0, 0, 0.8);
+    }
+
+.photo-container{
+grid-column-start: 1;
+grid-column-end: 4;
+grid-row: 2;
+}
+    .hero-photo{
+    width: 100%;
+    height: 12.5rem;
+    object-fit: cover;
+    z-index: 1;
+    }
+/*------
+MAIN
+-------*/ 
+.about-content{
+grid-row: 3;
+grid-column-start: 1;
+grid-column-end: 4;
+display: grid;
+grid-template-rows: 3em 42em 5em 52em 0em 9em 2em 10em 2em 20em;
+grid-template-columns: 8vw 84vw 8vw;
+}
+
+.about-intro{
+grid-row: 2;
+grid-column: 2;
+display: grid;
+grid-auto-columns: auto;
+grid-template-rows: 3rem 17rem 22rem;
+}
+    .intro-title{
+    grid-row: 1;
+    font-family: 'Source Serif Pro', serif;
+    color: #0e3a59;
+    }
+
+    .intro-text{grid-row: 2; text-align: justify;}
+    .intro-logo{ grid-row: 3; text-align: center;}
+    .ab-logo{width: 60vw; height: auto; }
+
+/*------
+LEADERS
+-------*/
+.executive-leders{
+grid-row: 4;
+grid-column-start: 1;
+grid-column-end: 4;
+display: grid;
+grid-auto-columns: 8vw 84vw 8vw;
+grid-template-rows: 4rem 10rem 12rem 12rem 12rem;
+background-color: #f4f4f4;
+}
+
+.leaders-title{
+grid-row: 1;
+grid-column: 2;
+font-family: 'Source Serif Pro', serif;
+color: #0e3a59;
+text-align: center;
+font-weight: 400;
+}
+
+.leaders-text{
+grid-row: 2;
+grid-column: 2;
+text-align: justify;
+}
+
+b{color: #0e3a59; font-weight: 600;}
+.photo-leader{width: 39vw;height: 9rem;padding-right: 1rem;}
+.position{font-weight: 600; padding: .3rem; margin: 0;}
+
+
+.hr-leaders{
+border: .3px solid rgba(15,58,89,0.7);
+position: absolute;
+margin-top: 10rem; 
+width: 30vw; 
+display: block;
+margin-left: 27%;
+margin-right: 0;
+}
+
+.leaders-name{
+font-family: 'Source Serif Pro', serif;
+padding: 0;
+margin: 0;
+}
+
+.alvin{grid-row: 3;grid-column: 2;display: flex;}
+.travis{grid-row: 4;grid-column: 2;display: flex;}
+.brian{grid-row: 5;grid-column: 2;display: flex;}
+
+/*------
+BANNER
+-------*/
+.about-banner{
+grid-row: 6;
+grid-column-start: 1;
+grid-column-end: 4;
+object-fit: cover;
+}
+
+.banner-text{
+z-index: 6;
+position: absolute;
+color: #ffffff;
+margin-left: 8vw;
+}
+.title-banner{
+font-family: 'Source Serif Pro', serif;
+font-weight: 500;
+font-size: 1.5rem;
+letter-spacing: .1rem;
+margin: 1rem 0 .5rem 0;
+}
+
+.readmore-link{margin: .5rem 0 .5rem 0;}
+
+.text-banner{
+font-family: 'Source Sans Pro', sans-serif;
+width: 35vw;
+margin: 0;
+padding: 0;
+}
+
+.sub-bannertext{grid-row: 8;grid-column: 2;}
+.mission-vission{grid-row: 10;grid-column: 2;}
+
+/*------
+SUB-TEXT
+-------*/
+
+.sub-bannertext{
+grid-row: 8;
+grid-column: 2;
+}
+
+.aboutsub-text{
+font-size: 1.2rem;
+font-family: 'Source Serif Pro', serif;
+font-weight: 400;
+text-align: center;
+line-height: 2rem;
+color: #0e3a59;
+}
+
+/*---------------
+MISSION & VISSION
+----------------*/
+.mission-vission{
+display: flex;
+flex-direction: column;
+}
+
+.mv-title{color: #0e3a59;
+text-align: center;
+}
+.mv-text{text-align: justify;}
