@@ -633,8 +633,7 @@ text-align: justify;
 
 b{color: #0e3a59; font-weight: 600;}
 .photo-leader{width: 9rem;height: 9rem;padding-right: 1rem;}
-.position{font-weight: 600; padding: .3rem; margin: 0;}
-
+.position{font-weight: 400; padding: .3rem; margin: 0; line-height: 1.2rem;}
 
 .hr-leaders{
 border: .3px solid rgba(15,58,89,0.7);
@@ -650,6 +649,7 @@ margin-right: 0;
 font-family: 'Source Serif Pro', serif;
 padding: 0;
 margin: 0;
+font-weight: 600;
 }
 
 .alvin{grid-row: 3;grid-column: 2;display: flex;}
