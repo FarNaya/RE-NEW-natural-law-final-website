@@ -460,8 +460,80 @@ width: 45vw;
 font-size: 1rem;
 margin-left: 0;
 }
-    
+
 }
 
+/* @media only screen 
+and (min-width : 834px){
+} */
+
 @media only screen 
-and (min-width : 834px){}
+and (min-width : 1024px){
+.about-wrapper{
+grid-template-rows: 5em 16em 130em 10.5rem;
+grid-template-columns: 15vw 70vw 15vw;
+}
+
+
+/* hero */
+.hero-overlay{height: 16em;}
+.hero-photo{height: 16em;}
+
+/*------
+MAIN
+-------*/ 
+.about-content{
+grid-template-rows: 2em 25em 10em 42em 0em 14em 2em 9em 8em 17em;
+grid-template-columns: 15vw 70vw 15vw;
+}
+        
+
+/* intro */
+.about-intro {
+grid-auto-columns: 45vw 25vw;
+grid-template-rows: 4rem 22rem;
+}
+
+.intro-logo{grid-row-start: 1;grid-row-end: 3;}
+.ab-logo {width: 21vw;}
+.intro-text{font-size:1.05rem; line-height: 2.5rem; padding-right:1.7em;}
+/*------
+LEADERS
+-------*/
+.executive-leders{
+grid-auto-columns: 15vw 23.33vw 23.33vw 23.33vw 15vw;
+grid-template-rows: 7em 8em 16em;
+}
+.leaders-title {padding-top: 2em;}
+.photo-leader{width: 11.5em;height: 11.5em;padding-right: 0rem;}
+.leaders-name{font-size: 1.1rem;}
+.position{padding: .3em;font-size: .8rem;}
+.hr-leaders{margin-top: 16rem; width: 11.6em;}
+#t-name{padding-left: 4.2em;}
+#t-position{padding-left: 6em;}
+#t-hr{margin-left: 4.2em;}
+/*------
+BANNER
+-------*/
+.banner-text{margin-left: 15vw; margin-top: 3em;}
+.title-banner{font-size: 2rem;} 
+.text-banner{
+font-size: 1.2rem;
+    }
+    
+    
+    
+    
+/*------
+SUB-TEXT
+-------*/
+.aboutsub-text{font-size: 1.5rem;line-height: 2.8em;}
+
+/*---------------
+MISSION & VISSION
+----------------*/
+.mission-vission{flex-direction: row;}
+.vission{width: 50vw;padding: 2em;}
+.mission{width: 50vw;padding: 2em;}
+
+}
