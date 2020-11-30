@@ -7,7 +7,7 @@ font-size: 1rem;
 .index-wrapper{
 display: grid;
 grid-template-columns: 8vw 84vw 8vw;
-grid-template-rows: 4em 26.5em 132em 10.5rem;
+grid-template-rows: 4em 26.5em 130em 10.5rem;
 }
 
 p{
@@ -452,7 +452,7 @@ grid-template-columns: 16.8vw 16.8vw 16.8vw 16.8vw 16.8vw;
         }
         .n-montana{grid-row: 4;grid-column: 5;}
 
-        figcaption{
+        .figcaption{
         font-family: 'Source Serif Pro', serif;
         line-height: 1.8em;
         font-size: .52rem;

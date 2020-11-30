@@ -356,7 +356,8 @@ text-align: justify;
 figcaption {font-size: 1rem;}
 
 /* Footer */
-footer {grid-template-columns: 38vw 8vw 8vw 8vw 38vw;
+footer {
+grid-template-columns: 38vw 8vw 8vw 8vw 38vw;
 grid-template-rows: 3.5rem 2.5rem 3rem;}
 .social-text {font-size: .8rem;}
 }
