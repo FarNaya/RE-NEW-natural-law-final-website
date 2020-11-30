@@ -755,6 +755,7 @@ grid-template-columns: 8vw 84vw 8vw;
     .callus{
     margin: 0;
     padding: 0;
+    color: #0e3a59;
     }
 
     .email{grid-row: 3;grid-column: 2;}
@@ -766,7 +767,8 @@ grid-template-columns: 8vw 84vw 8vw;
     }
     .enquiries{
     margin: 0;
-    padding: 0;  
+    padding: 0;
+    color: #0e3a59;  
     }
   
     .head-office{grid-row: 4;grid-column: 2}
@@ -778,19 +780,23 @@ grid-template-columns: 8vw 84vw 8vw;
     }
     .h-office{
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    color: #0e3a59;
     }
         
 
     .mailing{grid-row: 5;grid-column: 2}
-    .h-mailing{  margin: 0;padding: 0;}
     .a-mailing{
     font-family: 'Source Serif Pro', serif;
     font-weight: 500;
     letter-spacing: .15em;
     margin-top: .2em;  
     }
-
+    .h-mailing{
+    margin: 0;
+    padding: 0;
+    color:#0e3a59
+    }
 
     .i-map{grid-row: 6;grid-column: 2;}
     .map{width: 84vw;height: auto;}

@@ -474,7 +474,6 @@ grid-template-rows: 5em 16em 130em 10.5rem;
 grid-template-columns: 15vw 70vw 15vw;
 }
 
-
 /* hero */
 .hero-overlay{height: 16em;}
 .hero-photo{height: 16em;}
@@ -519,11 +518,8 @@ BANNER
 .title-banner{font-size: 2rem;} 
 .text-banner{
 font-size: 1.2rem;
-    }
-    
-    
-    
-    
+}
+ 
 /*------
 SUB-TEXT
 -------*/
