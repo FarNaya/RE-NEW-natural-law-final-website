@@ -626,3 +626,38 @@ grid-template-columns: 15vw 70vw 15vw;
 
 .map{width: 40vw;height: 15em;} 
 }
+
+/*----------------------------------------
+CAREER
+-----------------------------------------*/
+@media only screen 
+and (min-width : 768px){
+.career-wrapper{
+grid-template-columns: 10vw 80vw 10vw;
+grid-template-rows: 4em 20em 40em 10.5rem;
+}
+
+/* Main */
+.career-content{
+grid-template-rows: 6em 6em 8em 8em 6em 6em;
+grid-template-columns: 10vw 80vw 10vw;   
+}
+
+.h4-message{font-size: 1.2em;margin-top: 4em;}
+}
+ 
+@media only screen 
+and (min-width : 1024px){
+.career-wrapper{
+grid-template-columns: 15vw 70vw 15vw;
+grid-template-rows: 5em 16em 60em 10.5rem;
+}
+
+.career-content{
+grid-template-rows: 8em 6em 8em 12em 12em 14em;
+grid-template-columns: 15vw 70vw 15vw;
+}
+
+.h4-message{margin-top: 4em;}
+
+}
