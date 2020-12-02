@@ -486,18 +486,18 @@ margin-right: 0;
 /*------
 BANNER
 -------*/
-.banner-text{
+.about-banner-text{
 z-index: 6;
 position: absolute;
 color: #ffffff;
 margin-left: 10vw;
 }
 
-/* .text-banner{
+.about-text-banner{
 width: 45vw;
 font-size: 1rem;
 margin-left: 0;
-} */
+}
 
 }
 
@@ -524,8 +524,7 @@ MAIN
 grid-template-rows: 2em 25em 10em 42em 0em 14em 2em 9em 8em 17em;
 grid-template-columns: 15vw 70vw 15vw;
 }
-        
-
+    
 /* intro */
 .about-intro {
 grid-auto-columns: 45vw 25vw;
@@ -553,9 +552,9 @@ grid-template-rows: 7em 8em 16em;
 /*------
 BANNER
 -------*/
-/* .banner-text{margin-left: 15vw; margin-top: 3em;}
-.title-banner{font-size: 2rem;}  */
-/* .text-banner{font-size: 1.2rem;} */
+.about-banner-text{margin-left: 15vw; margin-top: 3em;}
+.about-title-banner{font-size: 2rem;}
+.about-text-banner{font-size: 1.2rem;}
    
 /*------
 SUB-TEXT
@@ -569,4 +568,61 @@ MISSION & VISSION
 .vission{width: 50vw;padding: 2em;}
 .mission{width: 50vw;padding: 2em;}
 
+}
+
+/*----------------------------------------
+CONTACT
+-----------------------------------------*/
+@media only screen 
+and (min-width : 768px){
+.contact-wrapper{
+grid-template-columns: 10vw 80vw 10vw;
+grid-template-rows: 4em 14em 60em 10.5rem;
+}
+
+/* hero */
+.heropic-about{height: 14em;}
+
+/*------
+MAIN
+-------*/ 
+.contact-content{
+grid-template-rows: 6em 6em 6em 8em 6em 22em;
+grid-template-columns: 10vw 80vw 10vw;
+}
+
+.map{width: 79.5vw;height: 20em;}
+ 
+
+}
+
+@media only screen 
+and (min-width : 834px){
+.contact-wrapper{
+grid-template-rows: 4em 14em 56em 10.5rem;
+}
+/* Main */
+.contact-content{
+grid-template-rows: 6em 6em 6em 8em 7em 17em;
+}
+.map{width: 50vw;height: 15em;} 
+}
+
+@media only screen 
+and (min-width : 1024px){
+.contact-wrapper{
+grid-template-rows: 5em 16em 60em 10.5rem;
+grid-template-columns: 15vw 70vw 15vw;
+}
+
+ /* hero */
+.heropic-about{height: 16em;}
+
+/* Main */
+.contact-content{
+grid-template-rows: 6em 6em 6em 8em 7em 17em;
+grid-template-columns: 15vw 70vw 15vw;
+}
+
+.map{width: 40vw;height: 15em;} 
 }

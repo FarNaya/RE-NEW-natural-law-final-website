@@ -580,7 +580,6 @@ grid-template-columns: 15vw 70vw 15vw;
 
  /* hero */
 .heropic-about{height: 16em;}
-}
 
 /* Main */
 .contact-content{
@@ -589,3 +588,4 @@ grid-template-columns: 15vw 70vw 15vw;
 }
 
 .map{width: 40vw;height: 15em;} 
+}
