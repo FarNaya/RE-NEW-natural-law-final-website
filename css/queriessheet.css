@@ -661,3 +661,125 @@ grid-template-columns: 15vw 70vw 15vw;
 .h4-message{margin-top: 4em;}
 
 }
+
+/*----------------------------------------
+NEWS
+-----------------------------------------*/
+@media only screen 
+and (min-width : 768px){
+.news-wrapper{
+grid-template-columns: 10vw 80vw 10vw;
+grid-template-rows: 4em 14em 175em 10.5rem;
+}
+/*------
+MAIN
+-------*/
+.news-content{
+grid-template-rows: 5em 28em 8em 130em;
+grid-template-columns: 10vw 80vw 10vw;
+}
+
+/* Video */
+.video-container{grid-template-rows: 22em 6rem;}
+
+/* News */
+.news-page{
+grid-template-columns: 35% 65%;
+grid-template-rows: repeat(11, 11em);
+}
+
+.art-title{font-size: .8rem;line-height: 1.4rem}
+.art-text{font-size: .7rem;line-height: 1rem;}
+
+    .n-photo{  
+    width: 11em;height: 7em;
+    padding-top: .3rem;
+ }   
+}
+
+@media only screen 
+and (min-width : 834px){
+.news-wrapper{
+grid-template-columns: 10vw 80vw 10vw;
+grid-template-rows: 4em 14em 185em 10.5rem;
+}
+
+/*------
+MAIN
+-------*/
+.news-content{
+grid-template-rows: 5em 33em 8em 130em;
+}
+
+.news-content{
+grid-template-rows: 5em 30em 8em 130em;
+grid-template-columns: 10vw 80vw 10vw;
+}
+
+/* Video */
+.video-container{grid-template-rows: 24em 6rem;}
+
+/* News */
+.news-page{
+grid-template-columns: 30% 70%;
+grid-template-rows: repeat(11, 12em);
+}
+
+.art-title{font-size: .9rem;line-height: 1.5rem}
+.art-text{font-size: .8rem;line-height: 1.5rem;}
+}
+
+@media only screen 
+and (min-width : 1024px){
+.news-wrapper{
+grid-template-rows: 5em 16em 190em 10.5rem;
+grid-template-columns: 15vw 70vw 15vw;
+}
+
+/*------
+MAIN
+-------*/
+.news-content{
+grid-template-rows: 10em 32em 8em 132em;
+grid-template-columns: 15vw 70vw 15vw;
+}
+
+/* Video */
+.video-container{grid-template-rows: 26em 6rem;}
+}
+
+@media only screen 
+and (min-width : 1280px){
+
+.news-wrapper{
+grid-template-rows: 5em 16em 200em 10.5rem;
+grid-template-columns: 15vw 70vw 15vw;
+}
+
+/*------
+MAIN
+-------*/
+.news-content{
+grid-template-rows: 10em 39em 10em 132em;
+grid-template-columns: 15vw 70vw 15vw;
+}
+
+/* Video */
+.video-container{grid-template-rows: 32em 7rem;}
+
+    .video, .vimeo{
+    max-width: 60vw;
+    margin-left: 5vw;
+    }
+
+    .v-caption{margin-left: 5vw;}
+        
+/* News */
+.news-page{
+grid-template-columns: 25% 75%;
+grid-template-rows: repeat(11, 12em);
+}
+
+.art-title{font-size: 1rem;line-height: 1.5rem}
+.art-text{font-size: .9rem;line-height: 1.5rem;}
+}
