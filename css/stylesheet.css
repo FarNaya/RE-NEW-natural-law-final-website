@@ -924,10 +924,13 @@ grid-template-rows: 2.5em 5em 3em 3em;}
 .doc-title{font-size: 1em;margin:0;}
 .pdf{font-size: .7em; text-decoration: none; color: #0e3a59; }
 .pdf:hover{font-size: 75%;color: red;}
-.doc-line{grid-row: 4;     
+.doc-line{
+grid-row: 4;     
 border: .3px solid rgba(15,58,89,0.5);
 margin-top: 3em;
-width: 84vw;}
+width: 84vw;
+}
+
 /* News */
 .news-page{
 grid-row: 5;
