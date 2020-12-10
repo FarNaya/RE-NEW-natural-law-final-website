@@ -856,7 +856,6 @@ grid-template-columns: 8vw 84vw 8vw;
 grid-template-rows: 3.5em 12.5em 130em 10.5em;
 }
 
-
 /*------
 MAIN
 -------*/
@@ -886,13 +885,19 @@ grid-auto-columns: auto;
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
-    max-width: 200%;
+    max-width: 100%;
+    object-fit: fill;
     }
 
     .vim,iframe{
     position: absolute;
+    /* width: 84vw;
+    height: 11.5rem; */
     width: 100%;
     height: 100%;
+    left:0;
+    top:0;    
+
     }
 
   .cont-capt{
