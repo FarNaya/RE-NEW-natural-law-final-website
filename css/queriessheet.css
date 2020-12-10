@@ -754,31 +754,30 @@ grid-template-columns: 15vw 70vw 15vw;
 
 /* Documents Related */
 .pdf-documents{grid-template-rows: 3em 5em 4em;}   
-.pdf{font-size: .85em; line-height: 1.5em;}
-}
+.pdf{ line-height: 1.5em;}
+
 
 /* News */
 .news-page{grid-template-rows: repeat(11, 11em);}
-
-
+}
 @media only screen 
 and (min-width : 1280px){
 
 .news-wrapper{
-grid-template-rows: 5em 16em 200em 10.5rem;
-grid-template-columns: 15vw 70vw 15vw;
+grid-template-rows: 5em 18em 200em 10.5rem;
+/* grid-template-columns: 15vw 70vw 15vw; */
 }
 
 /*------
 MAIN
 -------*/
 .news-content{
-grid-template-rows: 10em 39em 10em 132em;
-grid-template-columns: 15vw 70vw 15vw;
+grid-template-rows: 7em 35em 12em 7em 132em;
+/* grid-template-columns: 15vw 70vw 15vw; */
 }
 
 /* Video */
-.video-container{grid-template-rows: 32em 7rem;}
+.video-container{grid-template-rows: 31em 4em;}
 
     .video, .vimeo{
     max-width: 60vw;
@@ -786,6 +785,11 @@ grid-template-columns: 15vw 70vw 15vw;
     }
 
     .v-caption{margin-left: 5vw;}
+
+/* Documents Related */
+.pdf-documents{grid-template-rows: 3em 5em 4em;}   
+.pdf{font-size: .95em; line-height: 1.7em;}
+
         
 /* News */
 .news-page{
@@ -793,6 +797,6 @@ grid-template-columns: 25% 75%;
 grid-template-rows: repeat(11, 12em);
 }
 
-.art-title{font-size: 1rem;line-height: 1.5rem}
-.art-text{font-size: .9rem;line-height: 1.5rem;}
+.art-title{font-size: 1rem;line-height: 1.9rem}
+.art-text{font-size: .9rem;line-height: 1.9rem;}
 }
