@@ -682,6 +682,10 @@ grid-template-columns: 10vw 80vw 10vw;
 /* Video */
 .video-container{grid-template-rows: 22.5em 4rem;}
 .v-caption{font-size: .9em;letter-spacing: .03em;}
+/* .vim,iframe{
+width: 80vw;
+height: 22.5em;
+} */
     
 /* Documents Related */
 .pdf-documents{grid-template-rows: 3em 4.5em 3.5em;}   
@@ -717,6 +721,10 @@ grid-template-columns: 10vw 80vw 10vw;
 /* Video */
 .video-container{grid-template-rows: 24.5em 3rem;}
 .v-caption{letter-spacing: 0.05em;}
+/* .vim,iframe{
+    width: 80vw;
+    height: 24.5em;
+    } */
 
 /* Documents Related */
 .pdf-documents{grid-template-rows: 2.5em 5em 5em;}   
@@ -779,10 +787,10 @@ grid-template-rows: 7em 35em 12em 7em 132em;
 /* Video */
 .video-container{grid-template-rows: 31em 4em;}
 
-    .video, .vimeo{
+    /* .video, .vimeo{
     max-width: 60vw;
     margin-left: 5vw;
-    }
+    } */
 
     .v-caption{margin-left: 5vw;}
 
