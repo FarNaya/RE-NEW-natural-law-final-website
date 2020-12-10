@@ -669,32 +669,35 @@ NEWS
 and (min-width : 768px){
 .news-wrapper{
 grid-template-columns: 10vw 80vw 10vw;
-grid-template-rows: 4em 14em 175em 10.5rem;
+grid-template-rows: 4em 14em 164.5em 10.5rem;
 }
 /*------
 MAIN
 -------*/
 .news-content{
-grid-template-rows: 5em 28em 8em 130em;
+grid-template-rows: 5em 26.5em 12em 6em 115em;
 grid-template-columns: 10vw 80vw 10vw;
 }
 
 /* Video */
-.video-container{grid-template-rows: 22em 6rem;}
+.video-container{grid-template-rows: 22.5em 4rem;}
+.v-caption{font-size: .9rem;}
+    
+/* Documents Related */
+.pdf-documents{grid-template-rows: 3em 4.5em 3.5em;}   
+.pdf{font-size: .85em; line-height: 1.5em;}
+
 
 /* News */
 .news-page{
 grid-template-columns: 35% 65%;
-grid-template-rows: repeat(11, 11em);
+grid-template-rows: repeat(11, 10em);
 }
 
-.art-title{font-size: .8rem;line-height: 1.4rem}
-.art-text{font-size: .7rem;line-height: 1rem;}
-
-    .n-photo{  
-    width: 11em;height: 7em;
-    padding-top: .3rem;
- }   
+.art-title{font-size: .9em;line-height: 1.8em}
+.art-text{font-size: .9em;line-height: 1.8em;}
+.read-more{font-size: 1.1em;}
+.n-photo{ width: 11em;height: 7em;padding-top: .3rem;}   
 }
 
 @media only screen 
