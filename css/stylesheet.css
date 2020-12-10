@@ -15,6 +15,7 @@ font-weight: 300;
 font-size: .8em;
 line-height: 1.6em;
 }
+h1,h2,h3,h4,h5,h6{color: #0e3a59;}
 
 /*-----
 HEADER
@@ -279,7 +280,6 @@ background-color: #f4f4f4;
       font-size: .8em;
       line-height: 1.2em;
       text-align: left;
-      color: #0e3a59;
       font-weight: 400;
       }
   
@@ -320,7 +320,7 @@ background-color: #f4f4f4;
     font-size: 1.15em;
     margin: .5em;
     padding: .5em;
-    color: #0e3a59;
+    /* color: #0e3a59; */
     }
 
     .hide-text{text-align: justify; line-height: 2.1em;}
@@ -853,7 +853,7 @@ NEWS
 .news-wrapper{
 display: grid;
 grid-template-columns: 8vw 84vw 8vw;
-grid-template-rows: 3.5em 12.5em 130em 10.5em;
+grid-template-rows: 3.5em 12.5em 135em 10.5em;
 }
 
 /*------
@@ -864,7 +864,7 @@ grid-row: 3;
 grid-column-start: 1;
 grid-column-end: 4;
 display: grid;
-grid-template-rows: 4em 14.5em 12em 5em 94.5em;
+grid-template-rows: 4em 19.5em 14em 5em 92.5em;
 grid-template-columns: 8vw 84vw 8vw;
 }
 
@@ -873,13 +873,17 @@ grid-template-columns: 8vw 84vw 8vw;
 grid-column: 2;
 grid-row: 2;
 display: grid;
-grid-template-rows: 11.5em 2em;
+grid-template-rows: 5em 11.5em 2em;
 grid-auto-columns: auto;
+}
+.vid-title{font-size: 1.1rem;
+font-family: 'Source Serif Pro', serif;
+line-height: 1.5em;
 }
 .link-keystone{color: #0e3a59;}
 .link-keystone:hover{color: red;}
 
-    .vimeo{grid-column-start:1; grid-column-end: 3; grid-row: 1;} 
+    .vimeo{grid-column-start:1; grid-column-end: 3; grid-row: 2;} 
     .video, .vimeo{
     position: relative;
     padding-bottom: 56.25%;
@@ -899,7 +903,7 @@ grid-auto-columns: auto;
   .cont-capt{
   grid-column-start:1;
   grid-column-end:3;
-  grid-row: 2;
+  grid-row: 3;
   }
     .v-caption{
     font-size: .7rem;
@@ -915,12 +919,15 @@ grid-auto-columns: auto;
 grid-column: 2;grid-row: 3;
 display: grid;
 grid-auto-columns: auto;
-grid-template-rows: 2.5em 5em 3em;}
+grid-template-rows: 2.5em 5em 3em 3em;}
 
-.doc-title{font-size: 1em;margin:0;color: #0e3a59;}
+.doc-title{font-size: 1em;margin:0;}
 .pdf{font-size: .7em; text-decoration: none; color: #0e3a59; }
 .pdf:hover{font-size: 75%;color: red;}
-
+.doc-line{grid-row: 4;     
+border: .3px solid rgba(15,58,89,0.5);
+margin-top: 3em;
+width: 84vw;}
 /* News */
 .news-page{
 grid-row: 5;
