@@ -891,13 +891,9 @@ grid-auto-columns: auto;
 
     .vim,iframe{
     position: absolute;
-    /* width: 84vw;
-    height: 11.5rem; */
     width: 100%;
     height: 100%;
-    left:0;
-    top:0;    
-
+    left:0;top:0; 
     }
 
   .cont-capt{
