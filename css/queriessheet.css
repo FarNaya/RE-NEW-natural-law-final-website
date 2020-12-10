@@ -681,12 +681,11 @@ grid-template-columns: 10vw 80vw 10vw;
 
 /* Video */
 .video-container{grid-template-rows: 22.5em 4rem;}
-.v-caption{font-size: .9rem;}
+.v-caption{font-size: .9em;letter-spacing: .03em;}
     
 /* Documents Related */
 .pdf-documents{grid-template-rows: 3em 4.5em 3.5em;}   
 .pdf{font-size: .85em; line-height: 1.5em;}
-
 
 /* News */
 .news-page{
@@ -704,32 +703,34 @@ grid-template-rows: repeat(11, 10em);
 and (min-width : 834px){
 .news-wrapper{
 grid-template-columns: 10vw 80vw 10vw;
-grid-template-rows: 4em 14em 185em 10.5rem;
+grid-template-rows: 4em 14em 175em 10.5rem;
 }
 
 /*------
 MAIN
 -------*/
 .news-content{
-grid-template-rows: 5em 33em 8em 130em;
-}
-
-.news-content{
-grid-template-rows: 5em 30em 8em 130em;
+grid-template-rows: 5em 29em 12.5em 5em 121em;
 grid-template-columns: 10vw 80vw 10vw;
 }
 
 /* Video */
-.video-container{grid-template-rows: 24em 6rem;}
+.video-container{grid-template-rows: 24.5em 3rem;}
+.v-caption{letter-spacing: 0.05em;}
+
+/* Documents Related */
+.pdf-documents{grid-template-rows: 3.5em 5em 4em;}   
+.pdf{font-size: .9em; line-height: 2em;}
+
 
 /* News */
 .news-page{
 grid-template-columns: 30% 70%;
-grid-template-rows: repeat(11, 12em);
+grid-template-rows: repeat(11, 11em);
 }
 
-.art-title{font-size: .9rem;line-height: 1.5rem}
-.art-text{font-size: .8rem;line-height: 1.5rem;}
+.art-title{font-size: 1em;line-height: 1.8em}
+.art-text{font-size: .9em;line-height: 1.8em;}
 }
 
 @media only screen 
