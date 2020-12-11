@@ -876,9 +876,12 @@ display: grid;
 grid-template-rows: 5em 11.5em 2em;
 grid-auto-columns: auto;
 }
-.vid-title{font-size: 1.1rem;
+.vid-title{font-size: .7rem;
 font-family: 'Source Serif Pro', serif;
-line-height: 1.5em;
+line-height: 2em;
+text-align: justify;
+margin:0 ;
+padding: 0;
 }
 .link-keystone{color: #0e3a59;}
 .link-keystone:hover{color: red;}

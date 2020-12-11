@@ -678,23 +678,12 @@ and (min-width : 454px){
 .news-content{grid-template-rows: 4em 23em 14em 5em 88em;}
 .video-container{grid-template-rows: 5em 15em 2em;}
 }
-/* @media only screen 
-and (min-width : 500px){
-.news-content{grid-template-rows: 4em 23.2em 12em 5em 90.8em;}
-.video-container{grid-template-rows:5em 15.5em 1.5em;}
-} */
 
 @media only screen 
 and (min-width : 550px){
 .news-content{grid-template-rows: 5em 24.7em 13.5em 5em 89.8em;}
 .video-container{grid-template-rows: 5em 17.5em 1.5em;}
 }
-
-/* @media only screen 
-and (min-width : 585px){
-.news-content{grid-template-rows: 4em 25.5em 12em 5em 88em;}
-.video-container{grid-template-rows:5em 28.5em 1.5em;}
-} */
 
 @media only screen 
 and (min-width : 635px){
@@ -732,7 +721,7 @@ grid-template-columns: 10vw 80vw 10vw;
 /* Video */
 .video-container{grid-template-rows: 6em 22.5em 4rem;}
 .v-caption{font-size: .9em;letter-spacing: .03em;}
-.vid-title{font-size: 1.1rem;}
+.vid-title{font-size: 1.3rem;line-height: 1.7em;}
 
 /* Documents Related */
 .pdf-documents{grid-template-rows: 3em 4.5em 3.5em;}   
@@ -767,6 +756,7 @@ grid-template-columns: 10vw 80vw 10vw;
 }
 
 /* Video */
+.vid-title{font-size: 1.5rem;line-height: 1.8em;}
 .video-container{grid-template-rows: 7em 24.5em 3rem;}
 .v-caption{letter-spacing: 0.05em;}
 
@@ -774,6 +764,7 @@ grid-template-columns: 10vw 80vw 10vw;
 /* Documents Related */
 .pdf-documents{grid-template-rows: 2.5em 5em 5em;}   
 .pdf{font-size: .9em; line-height: 2em;}
+
 
 
 /* News */
@@ -793,6 +784,12 @@ and (min-width : 880px){
 .video-container{grid-template-rows: 7em 26.5em 3rem;}
 }
 
+/* @media only screen 
+and (min-width : 930px){   
+.news-wrapper{grid-template-rows: 4em 14em 180em 10.5rem;}
+.news-content{grid-template-rows: 5em 39em 12.5em 5em 121em;}
+.video-container{grid-template-rows: 7em 34.5em 3rem;}
+} */
 @media only screen 
 and (min-width : 985px){   
 .news-content{grid-template-rows: 5em 40.5em 17em 5em 121em;}
@@ -810,18 +807,20 @@ grid-template-columns: 15vw 70vw 15vw;
 MAIN
 -------*/
 .news-content{
-grid-template-rows: 6em 37em 16em 6em 121em;
+grid-template-rows: 6em 40em 12em 6em 121em;
 grid-template-columns: 15vw 70vw 15vw;
 }
 
 /* Video */
-.vid-title{font-size: 1.2rem;line-height: 2em;}
-.video-container{grid-template-rows: 7em 26em 4em;}
+.vid-title{font-size: 1.7rem;line-height: 2em;}
+
+.video-container{grid-template-rows: 9em 26em 4em;}
 
 /* Documents Related */
 .pdf-documents{grid-template-rows: 3em 5em 4em;}   
 .pdf{ line-height: 1.5em;}
 .doc-line{width: 70vw;}
+
 
 /* News */
 .news-page{grid-template-rows: repeat(11, 11em);}
@@ -834,20 +833,34 @@ and (min-width : 1065px){
 .video-container{grid-template-rows: 9em 28em 4em}
 }
 
+
+/* @media only screen 
+and (min-width : 1112px){
+.news-wrapper{grid-template-rows: 5em 18em 185em 10.5rem;}
+.news-content{grid-template-rows: 6em 42.5em 12em 6em 122em;}
+.video-container{grid-template-rows: 9em 29.5em 4em}
+} */
+
 @media only screen 
 and (min-width : 1210px){
+/* .news-wrapper{grid-template-rows: 5em 18em 185em 10.5rem;} */
 .news-content{grid-template-rows: 6em 45em 18em 6em 122em;}
 .video-container{grid-template-rows: 9em 32.5em 3.5em}
 }
 
+
 @media only screen 
 and (min-width : 1280px){
-.news-wrapper{grid-template-rows: 5em 18em 215em 10.5rem;}
+.news-wrapper{
+grid-template-rows: 5em 18em 215em 10.5rem;
+}
 
 /*------
 MAIN
 -------*/
-.news-content{grid-template-rows: 7em 44em 17em 7em 132em;}
+.news-content{
+grid-template-rows: 7em 44em 17em 7em 132em;
+}
 
 /* Video */
 .video-container{grid-template-rows: 8em 32em 3em;}
@@ -856,7 +869,8 @@ MAIN
 /* Documents Related */
 .pdf-documents{grid-template-rows: 3em 5em 4em;}   
 .pdf{font-size: .95em; line-height: 1.7em;}
-    
+
+        
 /* News */
 .news-page{
 grid-template-columns: 25% 75%;
@@ -878,10 +892,10 @@ grid-template-rows: 5em 20em 212em 10.5rem;
 /*------
 MAIN
 -------*/
-.news-content{grid-template-rows: 8em 48em 18em 6em 121em;}
+.news-content{grid-template-rows: 8em 50em 18em 6em 121em;}
 
 /* Video */
-.video-container{grid-template-rows: 7em 36.5em 4em;}
+.video-container{grid-template-rows: 9em 36.5em 4em;}
 .v-caption{margin-left: 0;}
 
 /* News */
