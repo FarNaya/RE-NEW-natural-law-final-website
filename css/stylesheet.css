@@ -760,64 +760,41 @@ grid-template-rows: 3.5rem 12.5rem 45rem 10.5rem;
     grid-column-start: 1;
     grid-column-end: 4;
     display: grid;
-    grid-template-rows: 3em 6em 6em 8em 6em 10em;
+    grid-template-rows: 6em 10em 7em 7em 8em 7em;
     grid-template-columns: 8vw 84vw 8vw;
     }
-        .phone-number{grid-row: 2;grid-column: 2;}
-        .number{
-        font-weight: 500;
-        font-family: 'Source Serif Pro', serif;
-        letter-spacing: .2em;
-        margin-top: .2em;
-        }
-        .callus{
-        margin: 0;
-        padding: 0;
-        color: #0e3a59;
-        }
-    
-        .email{grid-row: 3;grid-column: 2;}
-        .a-email{
-        font-family: 'Source Serif Pro', serif;
-        font-weight: 500;
-        letter-spacing: .15em;
-        margin-top: .2em;
-        }
-        .enquiries{
-        margin: 0;
-        padding: 0;
-        color: #0e3a59;  
-        }
-      
-        .head-office{grid-row: 4;grid-column: 2}
-        .a-office{
-        font-family: 'Source Serif Pro', serif;
-        font-weight: 500;
-        letter-spacing: .15em;
-        margin-top: .2em;  
-        }
-        .h-office{
-        margin: 0;
-        padding: 0;
-        color: #0e3a59;
-        }
-            
-    
-        .mailing{grid-row: 5;grid-column: 2}
-        .a-mailing{
-        font-family: 'Source Serif Pro', serif;
-        font-weight: 500;
-        letter-spacing: .15em;
-        margin-top: .2em;  
-        }
-        .h-mailing{
-        margin: 0;
-        padding: 0;
-        color:#0e3a59
-        }
-    
-        .i-map{grid-row: 6;grid-column: 2;}
-        .map{width: 84vw;height: auto;}
+    .ci-1,.ci-2,.number,
+    .a-email,.a-office{
+    font-family: 'Source Serif Pro', serif; 
+    padding: 0; margin: 0; 
+    font-weight: 300;
+    color: #0e3a59;  
+    }
+
+    .callus,.enquiries, .h-office,
+    .hours-text{margin: 0;padding: 0;}
+
+    .contact-intro{grid-column: 2;grid-row: 2;}
+    .ci-1{font-size: 1.2em; line-height: 3em;}
+    .ci-2{font-size: 1.6em;}
+
+    .phone-number{grid-row: 3;grid-column: 2;}
+    .number{
+    font-weight: 500;
+    letter-spacing: .2em;
+    margin-top: .2em;
+    color: #0e3a59;
+    text-decoration: none;
+    }
+
+    .email{grid-row: 4;grid-column: 2;}
+    .a-email{letter-spacing: .15em;margin-top: .2em;}
+ 
+    .head-office{grid-row: 5;grid-column: 2}
+    .a-office{letter-spacing: .15em; margin-top: .2em;}  
+
+    .hours{grid-column: 2; grid-row: 6;}
+
 /*----------------------------------------
 CAREER
 -----------------------------------------*/
