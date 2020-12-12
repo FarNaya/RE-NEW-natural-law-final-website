@@ -746,11 +746,65 @@ grid-template-rows: 3.5rem 12.5rem 146rem 10.5rem;
 /*----------------------------------------
 CONTACT
 -----------------------------------------*/
+
+    
 .contact-wrapper{
 display: grid;
 grid-template-columns: 8vw 84vw 8vw;
-grid-template-rows: 3.5rem 12.5rem 45rem 10.5rem;
+grid-template-rows: 3.5em 24em 45em 10.5em;
 }
+
+/*------
+HERO
+-------*/
+.contact-hero{
+grid-row: 2;
+grid-column-start: 1;
+grid-column-end: 4;
+}
+
+.cont-contact-over{position: absolute;z-index:2; width: 100%;}
+
+
+.hero-contact-text{
+position: absolute;
+z-index: 7;
+color: white;
+padding: 0;
+}
+
+.cont-h3{margin-top: 12.5em;margin-left: 1em;}
+.cont-p{ margin-top: 20em;margin-left: 1.8em;}
+     
+.hero-contact-overlay{
+width: 100vw;
+height: 24em;
+opacity: 0.3;
+background: rgba(0, 0, 0, 0.3);
+}
+
+.photo-contact-container{
+grid-column-start: 1;
+grid-column-end: 4;
+grid-row: 2;
+}
+.heropic-contact{
+width: 100%;
+height: 24em;
+object-fit: cover;
+z-index: 1;
+}
+
+.hero-contact-shape{
+border-top: 24em solid rgba(15, 58, 89, 0.5);
+border-left: 0px solid transparent;
+border-right: 7em solid transparent;
+height: 0;
+width: 9em;
+z-index: 5;
+position: absolute;
+}
+        /*  */
     
     /*------
     MAIN
@@ -760,7 +814,7 @@ grid-template-rows: 3.5rem 12.5rem 45rem 10.5rem;
     grid-column-start: 1;
     grid-column-end: 4;
     display: grid;
-    grid-template-rows: 6em 10em 7em 7em 8em 7em;
+    grid-template-rows: 5em 10em 5em 5em 7em 13em;
     grid-template-columns: 8vw 84vw 8vw;
     }
     .ci-1,.ci-2,.number,
@@ -786,6 +840,7 @@ grid-template-rows: 3.5rem 12.5rem 45rem 10.5rem;
     color: #0e3a59;
     text-decoration: none;
     }
+    .number:hover{font-size: 125%;text-decoration: underline;transition: 0.3s;}
 
     .email{grid-row: 4;grid-column: 2;}
     .a-email{letter-spacing: .15em;margin-top: .2em;}
