@@ -746,8 +746,6 @@ grid-template-rows: 3.5rem 12.5rem 146rem 10.5rem;
 /*----------------------------------------
 CONTACT
 -----------------------------------------*/
-
-    
 .contact-wrapper{
 display: grid;
 grid-template-columns: 8vw 84vw 8vw;
@@ -804,8 +802,7 @@ width: 9em;
 z-index: 5;
 position: absolute;
 }
-        /*  */
-    
+
     /*------
     MAIN
     -------*/ 
@@ -817,6 +814,7 @@ position: absolute;
     grid-template-rows: 5em 10em 5em 5em 7em 13em;
     grid-template-columns: 8vw 84vw 8vw;
     }
+
     .ci-1,.ci-2,.number,
     .a-email,.a-office{
     font-family: 'Source Serif Pro', serif; 
@@ -841,13 +839,10 @@ position: absolute;
     text-decoration: none;
     }
     .number:hover{font-size: 125%;text-decoration: underline;transition: 0.3s;}
-
     .email{grid-row: 4;grid-column: 2;}
     .a-email{letter-spacing: .15em;margin-top: .2em;}
- 
     .head-office{grid-row: 5;grid-column: 2}
     .a-office{letter-spacing: .15em; margin-top: .2em;}  
-
     .hours{grid-column: 2; grid-row: 6;}
 
 /*----------------------------------------
