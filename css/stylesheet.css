@@ -880,7 +880,7 @@ NEWS
 .news-wrapper{
 display: grid;
 grid-template-columns: 8vw 84vw 8vw;
-grid-template-rows: 3.5em 12.5em 135em 10.5em;
+grid-template-rows: 3.5em 24em 135em 10.5em;
 }
 
 /*------
