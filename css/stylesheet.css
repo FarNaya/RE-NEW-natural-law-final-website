@@ -598,7 +598,7 @@ ABOUT
 .about-wrapper{
 display: grid;
 grid-template-columns: 8vw 84vw 8vw;
-grid-template-rows: 3.5rem 12.5rem 146rem 10.5rem;
+grid-template-rows: 3.5rem 24rem 146rem 10.5rem;
 }
     
     /*-----
@@ -607,35 +607,6 @@ grid-template-rows: 3.5rem 12.5rem 146rem 10.5rem;
     .hamburger{color:lightgrey;}
     .cross{color:lightgrey;}
     
-    /*------
-    HERO
-    -------*/
-    .sect-hero{
-    grid-row: 2;
-    grid-column-start: 1;
-    grid-column-end: 4;
-    }
-    
-    .hero-over{position: absolute;z-index:2;}
-    
-        .hero-overlay{
-        width: 100vw;
-        height: 12.5rem;
-        opacity: 0.3;
-        background: rgba(0, 0, 0, 0.8);
-        }
-    
-    .photo-container{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row: 2;
-    }
-        .heropic-about{
-        width: 100%;
-        height: 12.5rem;
-        object-fit: cover;
-        z-index: 1;
-        }
     /*------
     MAIN
     -------*/ 
