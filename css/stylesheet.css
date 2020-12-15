@@ -17,6 +17,48 @@ line-height: 1.6em;
 }
 h1,h2,h3,h4,h5,h6{color: #0e3a59;}
 
+.cont-section-over{position: absolute;z-index:2; width: 100%;}
+
+.hero-section-text{
+position: absolute;
+z-index: 7;
+color: white;
+padding: 0;
+}
+
+.cont-h3{margin-top: 12.5em;margin-left: 1em;}
+.cont-p{ margin-top: 20em;margin-left: 1.8em;}
+     
+.hero-section-overlay{
+width: 100vw;
+height: 24em;
+opacity: 0.3;
+background: rgba(0, 0, 0, 0.3);
+}
+
+.photo-section-container{
+grid-column-start: 1;
+grid-column-end: 4;
+grid-row: 2;
+}
+.heropic-section{
+width: 100%;
+height: 24em;
+object-fit: cover;
+z-index: 1;
+}
+
+.hero-section-shape{
+border-top: 24em solid rgba(15, 58, 89, 0.5);
+border-left: 0px solid transparent;
+border-right: 7em solid transparent;
+height: 0;
+width: 9em;
+z-index: 5;
+position: absolute;
+}
+
+
 /*-----
 HEADER
 -------*/
@@ -700,15 +742,7 @@ grid-template-rows: 3.5rem 12.5rem 146rem 10.5rem;
     margin: 1rem 0 .5rem 0;
     }
     
-    .readmore-link{margin: .5rem 0 .5rem 0;}
-    
-    /* .text-banner{
-    font-family: 'Source Sans Pro', sans-serif;
-    width: 35vw;
-    margin: 0;
-    padding: 0;
-    } */
-    
+    .readmore-link{margin: .5rem 0 .5rem 0;}    
     .sub-bannertext{grid-row: 8;grid-column: 2;}
     .mission-vission{grid-row: 10;grid-column: 2;}
     
@@ -755,52 +789,10 @@ grid-template-rows: 3.5em 24em 45em 10.5em;
 /*------
 HERO
 -------*/
-.contact-hero{
+.section-hero{
 grid-row: 2;
 grid-column-start: 1;
 grid-column-end: 4;
-}
-
-.cont-contact-over{position: absolute;z-index:2; width: 100%;}
-
-
-.hero-contact-text{
-position: absolute;
-z-index: 7;
-color: white;
-padding: 0;
-}
-
-.cont-h3{margin-top: 12.5em;margin-left: 1em;}
-.cont-p{ margin-top: 20em;margin-left: 1.8em;}
-     
-.hero-contact-overlay{
-width: 100vw;
-height: 24em;
-opacity: 0.3;
-background: rgba(0, 0, 0, 0.3);
-}
-
-.photo-contact-container{
-grid-column-start: 1;
-grid-column-end: 4;
-grid-row: 2;
-}
-.heropic-contact{
-width: 100%;
-height: 24em;
-object-fit: cover;
-z-index: 1;
-}
-
-.hero-contact-shape{
-border-top: 24em solid rgba(15, 58, 89, 0.5);
-border-left: 0px solid transparent;
-border-right: 7em solid transparent;
-height: 0;
-width: 9em;
-z-index: 5;
-position: absolute;
 }
 
     /*------

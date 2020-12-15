@@ -581,11 +581,11 @@ grid-template-rows: 4em 24em 49em 8.5rem;
 }
 
 /* hero */
-.heropic-about{height: 24em;}
-.hero-contact-text{font-size: 1.2em;}
+.heropic-section{height: 24em;}
+.hero-section-text{font-size: 1.2em;}
 .cont-h3{margin-top: 10em;margin-left: 3.4em; font-size: 1.4em;}
 .cont-p{ margin-top: 13em;margin-left: 3.9em;}   
-.hero-contact-shape{
+.hero-section-shape{
 border-top: 24em solid rgba(15, 58, 89, 0.5);
 border-right: 16em solid transparent;
 width: 16em;
@@ -614,9 +614,9 @@ grid-template-columns: 15vw 70vw 15vw;
 }
 
  /* hero */
-.heropic-contact{height: 26em;}
-.hero-contact-overlay{height: 26em;}
-.hero-contact-shape{
+.heropic-section{height: 26em;}
+.hero-section-overlay{height: 26em;}
+.hero-section-shape{
 border-top: 26em solid rgba(15, 58, 89, 0.5);
 border-right: 19em solid transparent;
 width: 19em;
@@ -653,7 +653,7 @@ height: 16em;
 
 @media only screen 
 and (min-width : 1280px){
-.hero-contact-shape{
+.hero-section-shape{
 border-right: 22em solid transparent;
 width: 22em;
 }
@@ -682,9 +682,9 @@ grid-template-columns: 15vw 70vw 15vw;
 }
 
  /* hero */
- .heropic-contact{height: 28em;}
- .hero-contact-overlay{height: 28em;}
- .hero-contact-shape{
+ .heropic-section{height: 28em;}
+ .hero-section-overlay{height: 28em;}
+ .hero-section-shape{
  border-top: 28em solid rgba(15, 58, 89, 0.5);
  border-right: 24em solid transparent;
  width: 25em;
@@ -705,9 +705,6 @@ grid-template-columns:  13.5em 33em 3.5em 26.5em 13.5em;
 .callus,.enquiries, .h-office,
 .hours-text{font-size: 1.1em;}
 .number,.a-office, .a-email{font-size: 1.3em;margin-top: .4em;}
-    
-    
-
 
 }
 
@@ -768,8 +765,6 @@ and (min-width : 550px){
 .news-content{grid-template-rows: 5em 24.7em 13.5em 5em 89.8em;}
 .video-container{grid-template-rows: 5em 17.5em 1.5em;}
 }
-
-
 
 @media only screen 
 and (min-width : 635px){
