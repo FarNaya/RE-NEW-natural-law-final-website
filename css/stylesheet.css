@@ -228,18 +228,6 @@ height: 30.5em;
     position: absolute;
     }
 
-    /* .hero-shape-2{
-    z-index: 5;
-    position: absolute;
-    width: 0;
-	height: 0;
-	border-left: 15vw solid transparent;
-	border-right: 0px solid transparent;
-    border-bottom: 10em solid rgba(15, 58, 89, 0.7);;
-    top: 20.5em;
-    left: 85vw;
-    } */
-
     .hero-text{
     position: absolute;
     z-index: 7;
@@ -455,12 +443,6 @@ grid-template-columns: 16.8vw 16.8vw 16.8vw 16.8vw 16.8vw;
     color: #0e3a59;
     }
 
-    /* .nations-text{
-    grid-row: 2;
-    grid-column-start: 1;
-    grid-column-end:6;
-    }
-     */
     .member-nations{
     width: 3.1em;
     height: auto;
@@ -630,6 +612,7 @@ grid-template-rows: 3.5rem 24rem 146rem 10.5rem;
         grid-row: 1;
         font-family: 'Source Serif Pro', serif;
         color: #0e3a59;
+        font-weight:400;
         }
     
         .intro-text{grid-row: 2; text-align: justify;}
@@ -646,7 +629,7 @@ grid-template-rows: 3.5rem 24rem 146rem 10.5rem;
     display: grid;
     grid-auto-columns: 8vw 84vw 8vw;
     grid-template-rows: 4rem 10rem 12rem 12rem 12rem;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
     }
     
     .leaders-title{
@@ -655,7 +638,8 @@ grid-template-rows: 3.5rem 24rem 146rem 10.5rem;
     font-family: 'Source Serif Pro', serif;
     color: #0e3a59;
     text-align: center;
-    font-weight: 400;
+    font-weight:400;
+ 
     }
     
     .leaders-text{
@@ -664,12 +648,12 @@ grid-template-rows: 3.5rem 24rem 146rem 10.5rem;
     text-align: justify;
     }
     
-    b{color: #0e3a59; font-weight: 600;}
+    i{color: #0e3a59; font-weight: 600;}
     .photo-leader{width: 9rem;height: 9rem;padding-right: 1rem;}
-    .position{font-weight: 400; padding: .3rem; margin: 0; line-height: 1.2rem;}
+    .position{font-weight: 400; padding: .3rem; margin: 0; line-height: 1.2rem;color: #0e3a59;}
     
     .hr-leaders{
-    border: .3px solid rgba(15,58,89,0.7);
+    border: .3px solid rgba(15,58,89,0.5);
     position: absolute;
     margin-top: 10rem; 
     width: 30vw; 
@@ -682,7 +666,7 @@ grid-template-rows: 3.5rem 24rem 146rem 10.5rem;
     font-family: 'Source Serif Pro', serif;
     padding: 0;
     margin: 0;
-    font-weight: 600;
+    font-weight: 300;
     }
     
     .alvin{grid-row: 3;grid-column: 2;display: flex;}
@@ -812,9 +796,9 @@ grid-column-end: 4;
 CAREER
 -----------------------------------------*/
 .career-wrapper{
-    display: grid;
-    grid-template-columns: 8vw 84vw 8vw;
-    grid-template-rows: 3.5rem 12.5rem 45rem 10.5rem;
+display: grid;
+grid-template-columns: 8vw 84vw 8vw;
+grid-template-rows: 3.5rem 12.5rem 45rem 10.5rem;
     }
     
     /*------
