@@ -899,9 +899,9 @@ display: grid;
 grid-auto-columns: auto;
 grid-template-rows: 2.5em 5em 3em 3em;}
 
-.doc-title{font-size: 1em;margin:0;}
+.doc-title{font-size: 1.1em;margin:0;}
 .pdf{font-size: .7em; text-decoration: none; color: #0e3a59; }
-.pdf:hover{font-size: 75%;color: red;}
+.pdf:hover{font-size: 120%;color: red;}
 .doc-line{
 grid-row: 4;     
 border: .3px solid rgba(15,58,89,0.5);

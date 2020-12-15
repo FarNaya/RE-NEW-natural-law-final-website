@@ -836,7 +836,7 @@ grid-template-columns: 10vw 80vw 10vw;
 
 /* Documents Related */
 .pdf-documents{grid-template-rows: 2.5em 5em 5em;}   
-.pdf{font-size: .9em; line-height: 2em;}
+.pdf{font-size: 1em; line-height: 2em;}
 
 
 /* News */
@@ -918,7 +918,7 @@ MAIN
 
 /* Documents Related */
 .pdf-documents{grid-template-rows: 3em 5em 4em;}   
-.pdf{font-size: .95em; line-height: 1.7em;}
+.pdf{font-size: 1.1em; line-height: 1.7em;}
     
 /* News */
 .news-page{
