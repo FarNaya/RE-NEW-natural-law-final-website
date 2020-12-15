@@ -606,7 +606,7 @@ grid-template-rows: 3.5rem 24rem 146rem 10.5rem;
     grid-column: 2;
     display: grid;
     grid-auto-columns: auto;
-    grid-template-rows: 3rem 17rem 22rem;
+    grid-template-rows: 3em 14em 19em 10em;
     }
         .intro-title{
         grid-row: 1;
@@ -618,6 +618,10 @@ grid-template-rows: 3.5rem 24rem 146rem 10.5rem;
         .intro-text{grid-row: 2; text-align: justify;}
         .intro-logo{ grid-row: 3; text-align: center;}
         .ab-logo{width: 60vw; height: auto; }
+        .sub-bannertext{
+            grid-row:4;
+            /* grid-column: 2; */
+            }
     
     /*------
     LEADERS
@@ -650,7 +654,7 @@ grid-template-rows: 3.5rem 24rem 146rem 10.5rem;
     
     i{color: #0e3a59; font-weight: 600;}
     .photo-leader{width: 9rem;height: 9rem;padding-right: 1rem;}
-    .position{font-weight: 400; padding: .3rem; margin: 0; line-height: 1.2rem;color: #0e3a59;}
+    .position{font-weight: 400; padding: .3rem; margin: 0; line-height: 1.2rem;color: #0e3a59; font-size: .6em;}
     
     .hr-leaders{
     border: .3px solid rgba(15,58,89,0.5);
@@ -698,17 +702,17 @@ grid-template-rows: 3.5rem 24rem 146rem 10.5rem;
     }
     
     .readmore-link{margin: .5rem 0 .5rem 0;}    
-    .sub-bannertext{grid-row: 8;grid-column: 2;}
+    /* .sub-bannertext{grid-row: 8;grid-column: 2;} */
     .mission-vission{grid-row: 10;grid-column: 2;}
     
     /*------
     SUB-TEXT
     -------*/
     
-    .sub-bannertext{
+    /* .sub-bannertext{
     grid-row: 8;
     grid-column: 2;
-    }
+    } */
     
     .aboutsub-text{
     font-size: 1.2rem;
