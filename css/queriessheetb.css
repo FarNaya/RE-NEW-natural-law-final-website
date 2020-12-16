@@ -541,11 +541,12 @@ grid-template-columns:  13.5em 33em 3.5em 26.5em 13.5em;
 /*----------------------------------------
 ABOUT
 -----------------------------------------*/
+
 @media only screen 
 and (min-width : 768px){
 .about-wrapper{
 grid-template-columns: 10vw 80vw 10vw;
-grid-template-rows: 4em 24em 100em 10.5rem;
+grid-template-rows: 4em 24em 95em 8.5em;
 }
 .vertical-logo{width: 9.5rem;height: auto;}
 
@@ -554,19 +555,20 @@ MAIN
 -------*/ 
     
 .about-content{
-grid-template-rows: 2em 20em 5em 33em 0em 10em 2em 7em 2em 19em;
+grid-template-rows: 0em 26em 4em 30em 0em 10em 0em 0em 3em 19em;
 grid-template-columns: 10vw 80vw 10vw;
 }
     
 .about-intro{
 grid-auto-columns: 55vw 25vw;
-grid-template-rows: 3rem 17rem;
+grid-template-rows: 3em 16em 7em 0em;
 }  
 
 .intro-title{ grid-row: 1;grid-column: 1;}
 .intro-text{grid-row: 2; grid-column: 1;line-height: 2rem;}
 .intro-logo{ grid-row: 2; grid-column: 2;text-align: right;}
 .ab-logo{width: 22vw;}
+.sub-bannertext{grid-row:3; grid-column-start: 1; grid-column-end: 3;}
 
 /*------
 LEADERS
@@ -575,7 +577,7 @@ LEADERS
 grid-column-start: 1;
 grid-column-end: 4;
 grid-auto-columns: 10vw 26.67vw 26.67vw 26.67vw 10vw;
-grid-template-rows: 4em 8em 16em;
+grid-template-rows: 2em 8em 16em;
 }
 
 .leaders-title{
@@ -587,6 +589,7 @@ grid-column-end: 5;
 .leaders-text{
 grid-column-start: 2;
 grid-column-end: 5;
+line-height: 2em;
 }
 
 .photo-leader{width: 10.5em;height: 10.5em;padding-right: 0rem;}
@@ -607,13 +610,13 @@ grid-column-end: 5;
 .position{font-weight: 600; padding: .3em;font-size: .65rem;}
 
 .hr-leaders{
-border: .3px solid rgba(15,58,89,1);
+border: .3px solid rgba(15,58,89,0.5);
 position: absolute;
 margin-top: 15rem; 
 width: 10.6em; 
 display: block;
 margin-left:0%;
-margin-right: 0;
+margin-right: 0%;
 }
 
 /*------
@@ -631,12 +634,20 @@ width: 45vw;
 font-size: 1rem;
 margin-left: 0;
 }
+/* .about-title-banner{color: white !important;} */
+.banner-team{color: white}
+
+/*---------------
+MISSION & VISSION
+----------------*/
+.mv-title{text-align: center; font-weight: 400; font-size: 1.1em;}
+.mv-text{text-align: justify; line-height: 2em; font-size: 1em;}
 }
 
 @media only screen 
 and (min-width : 1024px){
 .about-wrapper{
-grid-template-rows: 5em 26em 140em 10.5rem;
+grid-template-rows: 5em 26em 120em 9em;
 grid-template-columns: 15vw 70vw 15vw;
 }
 
@@ -644,45 +655,39 @@ grid-template-columns: 15vw 70vw 15vw;
 MAIN
 -------*/ 
 .about-content{
-grid-template-rows: 8em 28em 10em 42em 0em 12em 2em 9em 8em 17em;
+grid-template-rows: 6em 28em 6em 38em 0em 0em 0em 12em 6em 17em;
 grid-template-columns: 15vw 70vw 15vw;
 }
     
 /* intro */
 .about-intro {
 grid-auto-columns: 45vw 25vw;
-grid-template-rows: 4rem 24rem;
+grid-template-rows: 0em 21em 7em 0em;
 }
+/* .intro-logo{grid-row-start: 1;grid-row-end: 3;} */
+.ab-logo {width: 15em;}
+.intro-text{font-size:.9em; line-height: 2.5em; padding-right:1.7em;}
+.aboutsub-text{font-size: 1.3rem;line-height: 2.3em;}
 
-.intro-logo{grid-row-start: 1;grid-row-end: 3;}
-.ab-logo {width: 21vw;}
-.intro-text{font-size:1.05rem; line-height: 2.5rem; padding-right:1.7em;}
 /*------
 LEADERS
 -------*/
 .executive-leders{
 grid-auto-columns: 15vw 23.33vw 23.33vw 23.33vw 15vw;
-grid-template-rows: 7em 8em 16em;
+grid-template-rows: 3em 8em 16em;
 }
-.leaders-title {padding-top: 2em;}
+/* .leaders-title {padding-top: 2em;} */
 .photo-leader{width: 11.5em;height: 11.5em;padding-right: 0rem;}
 .leaders-name{font-size: 1.1rem;}
 .position{padding: .3em;font-size: .8rem;}
 .hr-leaders{margin-top: 16rem; width: 11.6em;}
-#t-name{padding-left: 4.2em;}
-#t-position{padding-left: 6em;}
-#t-hr{margin-left: 4.2em;}
+
 /*------
 BANNER
 -------*/
 .about-banner-text{margin-left: 15vw; margin-top: 3em;}
 .about-title-banner{font-size: 2rem;}
 .about-text-banner{font-size: 1.2rem;}
-   
-/*------
-SUB-TEXT
--------*/
-.aboutsub-text{font-size: 1.5rem;line-height: 2.8em;}
 
 /*---------------
 MISSION & VISSION
@@ -694,11 +699,52 @@ MISSION & VISSION
 }
 
 @media only screen 
-and (min-width : 1280px){}
+and (min-width : 1280px){
+.about-wrapper{
+grid-template-rows: 5em 26em 120em 9em;
+grid-template-columns: 15vw 70vw 15vw;
+}
+/*------
+MAIN
+-------*/ 
+.about-content{
+grid-template-rows: 6em 25em 6em 38em 0em 0em 0em 14em 6em 17em;
+}
+/* intro */
+.about-intro {
+grid-auto-columns: 50vw 20vw;
+grid-template-rows: 0em 18em 7em 0em;
+}
+.ab-logo {width: 13em;}
+.intro-text{font-size: 1em; line-height: 2.5em; padding-right:1.7em;}
+.aboutsub-text{font-size: 1.3rem;line-height: 2.3em;}
 
+/*------
+LEADERS
+-------*/
+/* .executive-leders{
+grid-auto-columns: 15vw 23.33vw 23.33vw 23.33vw 15vw;
+grid-template-rows: 3em 8em 16em;
+} */
+.leaders-title{font-size: 1.2em;}
+.photo-leader{width: 11.5em;height: 11.5em;padding-right: 0rem;}
+.leaders-name{font-size: 1.1rem;}
+.position{padding: .3em;font-size: .8rem;}
+.hr-leaders{margin-top: 16rem; width: 11.6em;}
+#t-name{padding-left: 3.4em;}
+#t-position{padding-left: 4.4em;}
+#t-hr{margin-left: 3.4em;}
+       
+}
 
+    
 @media only screen 
-and (min-width : 1440px){}
+and (min-width : 1440px){
+.about-wrapper{
+grid-template-rows: 5em 28em 120em 9em;
+}
+    
+}
 
 
 /*----------------------------------------
@@ -708,7 +754,7 @@ CAREER
 and (min-width : 768px){
 .career-wrapper{
 grid-template-columns: 10vw 80vw 10vw;
-grid-template-rows: 4em 20em 40em 10.5rem;
+grid-template-rows: 4em 20em 40em 8.5rem;
 }
 
 /* Main */
@@ -782,7 +828,7 @@ and (min-width : 725px){
 and (min-width : 768px){
 .news-wrapper{
 grid-template-columns: 10vw 80vw 10vw;
-grid-template-rows: 4em 24em 174em 10.5rem;
+grid-template-rows: 4em 24em 174em 8.5rem;
 }
 /*------
 MAIN
@@ -818,7 +864,7 @@ grid-template-rows: repeat(11, 10em);
 and (min-width : 834px){
 .news-wrapper{
 grid-template-columns: 10vw 80vw 10vw;
-grid-template-rows: 4em 24em 190em 10.5rem;
+grid-template-rows: 4em 24em 190em 8.5rem;
 }
 
 /*------
