@@ -408,8 +408,14 @@ object-fit: cover;
     font-weight: lighter;
     font-size: .7em;
     font-family: 'Source Serif Pro', serif;
-    /* font-family: 'Source Sans Pro', sans-serif; */
+    z-index: 6;
     }
+
+    .ban{color: white !important;}
+        
+    
+    /* font-family: 'Source Sans Pro', sans-serif; */
+
 
     .banner-link{padding-left: 1.3em; padding-top: 0; margin-top: 0;}
     .about-link{color: #ffffff;}
