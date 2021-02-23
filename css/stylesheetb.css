@@ -409,6 +409,7 @@ object-fit: cover;
     font-size: .7em;
     font-family: 'Source Serif Pro', serif;
     z-index: 6;
+    color: white;
     }
 
     .ban{color: white !important;}
